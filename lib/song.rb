@@ -3,10 +3,11 @@ require_relative './post.rb'
 require_relative './author.rb'
 
 class Song
-  attr_accessor :title
+  attr_accessor :title, :artist
 
-  def initialize(title=nil)
+  def initialize(title=nil, artist)
     @title = title
+    @artist = artist
   end
 
   def self.artist=
