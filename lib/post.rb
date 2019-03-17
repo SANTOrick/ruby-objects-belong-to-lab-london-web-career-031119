@@ -11,6 +11,7 @@ attr_accessor :author
 
   def self.author=
     self.author = Author.new
+  end
 
 
 
