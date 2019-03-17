@@ -9,6 +9,7 @@ class Song
     @title = title
   end
 
-
+  def self.artist
+    @Artist.name
 
 end
