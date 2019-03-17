@@ -5,9 +5,8 @@ require_relative './author.rb'
 class Song
   attr_accessor :title
 
-  def initialize(title)
+  def initialize(title=nil)
     @title = title
-    
   end
 
 
