@@ -10,6 +10,6 @@ class Song
   end
 
   def self.artist
-    Artist.name
+    self.Artist.name
 
 end
