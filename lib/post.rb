@@ -14,9 +14,6 @@ attr_accessor :author, :title
     self.author = Author.new
   end
 
-  def self.title
-
-
 
 
 end
